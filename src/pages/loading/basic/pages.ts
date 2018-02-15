@@ -13,7 +13,7 @@ export class BasicPage {
   presentLoading() {
     this.loadingCtrl.create({
       content: 'Please wait...',
-      duration: 3000,
+      duration: 300,
       dismissOnPageChange: true
     }).present();
   }
